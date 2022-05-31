@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin: 0 30%;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+}
+#numberOfPackets {
+    margin-top: 8px;
+    margin-left: 72px;
+    height: 40px;
+    width: 40%;
+    background-color: grey;
+}
+#costPricePerApple {
+    margin-top: 8px;
+    margin-left: 56px;
+    height: 40px;
+    width: 40%;
+    background-color: grey;
+}
+#costPricePerPacket {
+    margin-top: 8px;
+    margin-left: 50px;
+    height: 40px;
+    width: 40%;
+    background-color: grey;
+}
+#recommendedPacketPrice {
+    margin-top: 8px;
+    height: 40px;
+    width: 40%;
+    background-color: grey;
+}
+#costPrice {
+    margin-top: 8px;
+    margin-left: 138px;
+    height: 40px;
+    width: 40%;
+    background-color: grey;
+}
+#numberOfApples {
+    margin-top: 8px;
+    margin-left: 61px;
+    height: 40px;
+    width: 40%;
+    background-color: grey;
+}
+#packetSize {
+    margin-top: 8px;
+    margin-left: 180px;
+    height: 40px;
+    width: 40%;
+    background-color: grey;
+}
+#requiredProfit {
+    margin-top: 8px;
+    margin-left: 138px;
+    height: 40px;
+    width: 40%;
+    background-color: grey;
+}
+#button {
+    margin-top: 8px;
+    margin-left: 138px;
+    height: 40px;
+    width: 40%;
+    background-color: grey;
+}
