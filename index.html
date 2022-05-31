@@ -13,7 +13,6 @@
     <div class="container">
         <h1>Apple Packet Price Planner</h1>
         <h2>Apple Buying Data</h2>
-        <form>
             <label for="costPrice">Cost Price Of Box:</label>
             <input type="text" name="costPrice" id="costPrice">
             <br><br>
@@ -27,13 +26,14 @@
             <input type="text" name="requiredProfit" id="requiredProfit">
             <br>
             <br>
-            <input type="submit" value="Calculate" id="button">
-        </form>
+            <button type="submit" name="submit" id="button">Calculate</button>
         <br><br>
         <h2>Apple Price Calculations</h2>
         <div class="box">
             <h3>Number Of Packet</h3>
-            <div id="numberOfPackets"></div>
+            <div id="numberOfPackets">
+                <h3 class="message" style="color:black"></h3>
+            </div>
         </div>
         <div class="box">
             <h3>Cost Price Per Apple</h3>
@@ -48,7 +48,7 @@
             <div id="recommendedPacketPrice"></div>
         </div>
     </div>
-    <script src="apples.js"></script>
+    <script src="apple.js"></script>
 </body>
 
 </html>
