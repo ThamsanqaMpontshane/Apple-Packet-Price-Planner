@@ -10,6 +10,8 @@ var recommendedpacketprice = document.querySelector("#recommendedPacketPrice");
 
 var button = document.querySelector("#button");
 
+// const apple = AppleCount();
+
 
 function calculateNumberOfPackets() {
     var numberofpackets1 = Math.ceil(numberofappleinabox.value / packetsize.value);
@@ -42,3 +44,4 @@ button.addEventListener("click", function () {
     calculateCostPerPacket();
     calculateRecommendedPacketPrice();
 });
+
