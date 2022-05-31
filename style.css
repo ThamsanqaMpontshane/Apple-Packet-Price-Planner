@@ -10,6 +10,7 @@
     flex-direction: row;
     gap: 50px;
     width: 100%;
+    text-align: center;
 }
 #numberOfPackets {
     margin-top: 8px;
